@@ -1,4 +1,4 @@
-# Study on prediction of outcome of Premier League using Machine Learning
+# Study on outcome prediction of Premier League using Machine Learning
 
 This project was developed for the Machine Learning course of the University of Crete (CS-577). The goal is to try various algorithms on a public dataset provided by http://www.football-data.co.uk/ (Seasons 2007-2017).
 Included is the report of the project too.
