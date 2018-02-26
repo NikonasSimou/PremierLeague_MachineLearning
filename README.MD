@@ -7,7 +7,7 @@ Included is the report of the project too.
 
 ### Prerequisites
 
-After cloning the repository you will need to download and install Python 3.6.3 or preferably Anaconda 3.6 version https://www.anaconda.com/download/. If Anaconda is not installed the Libraries needed are:
+After cloning the repository you will need to download and install Python 3.6.3 or preferably Anaconda 3.6 version https://www.anaconda.com/download/.<br /> If Anaconda is not installed the Libraries needed are: <br />
 -Scipy https://www.scipy.org/ <br />
 -Numpy http://www.numpy.org/ <br />
 -Pandas https://pandas.pydata.org/ <br />
