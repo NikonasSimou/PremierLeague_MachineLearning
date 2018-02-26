@@ -8,10 +8,10 @@ Included is the report of the project too.
 ### Prerequisites
 
 After cloning the repository you will need to download and install Python 3.6.3 or preferably Anaconda 3.6 version https://www.anaconda.com/download/. If Anaconda is not installed the Libraries needed are:
--Scipy https://www.scipy.org/
--Numpy http://www.numpy.org/
--Pandas https://pandas.pydata.org/
--Matplotlib https://matplotlib.org/
+-Scipy https://www.scipy.org/ \n
+-Numpy http://www.numpy.org/ \n
+-Pandas https://pandas.pydata.org/ \n
+-Matplotlib https://matplotlib.org/ \n
 
 
 ### A few things about the implementation
@@ -26,7 +26,7 @@ Another important aspect is the use of time series cross validation in order to 
 
 The classifiers used are Support Vector Machines, Random Forests, K-Nearest Neighbors.
 
-For more information please read the comments in the code and the Rport of the project.
+For more information please read the comments in the code and the Report of the project.
 
 ## Running the tests
 
