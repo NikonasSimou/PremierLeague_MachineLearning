@@ -8,10 +8,10 @@ Included is the report of the project too.
 ### Prerequisites
 
 After cloning the repository you will need to download and install Python 3.6.3 or preferably Anaconda 3.6 version https://www.anaconda.com/download/. If Anaconda is not installed the Libraries needed are:
--Scipy https://www.scipy.org/ \n
--Numpy http://www.numpy.org/ \n
--Pandas https://pandas.pydata.org/ \n
--Matplotlib https://matplotlib.org/ \n
+-Scipy https://www.scipy.org/ <br />
+-Numpy http://www.numpy.org/ <br />
+-Pandas https://pandas.pydata.org/ <br />
+-Matplotlib https://matplotlib.org/ <br />
 
 
 ### A few things about the implementation
