@@ -2,35 +2,19 @@
 
 This project was developed for the Machine Learning course of the University of Crete (CS-577). The goal is to try various algorithms on a public dataset provided by http://www.football-data.co.uk/ (Seasons 2007-2017).
 
-## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
 ### Prerequisites
 
-After cloning the repository you will need to download and install Python 3.6.3 or preferably Anaconda.
+After cloning the repository you will need to download and install Python 3.6.3 or preferably Anaconda 3.6 version https://www.anaconda.com/download/.
 
-```
-Give examples
-```
 
-### Installing
+### A few things about the implementation
 
-A step by step series of examples that tell you have to get a development env running
+First of, in order to create a dataset that can be used for prediction we need to make sure that each time we are relying on past matches only (you can't predict a match using the number of fouls comitted). The approach taken here is to create
+individual datasets for each team. Which means that we select a team and look to it's 'K' most recent matches and measure performance for both home and away teams. This feature extraction method is refered as "K-Team Statistics" in this project.
 
-Say what the step will be
 
-```
-Give the example
-```
-
-And repeat
-
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo
 
 ## Running the tests
 
