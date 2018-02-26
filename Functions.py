@@ -186,7 +186,7 @@ def LearnTeamModel(HomeData,Target,k):
     #temp=chi2(HomeData,Target)
     FeatureNames=list(HomeData)
     
-    #Independance test
+    #Independance test : it is included as comment only because the small amount of samples makes the test unreliable
     #print(FeatureNames[any(temp[1]<1)])#find features that are independent
    # pvalue_pos=0
     #for pvalue in temp[1]:
