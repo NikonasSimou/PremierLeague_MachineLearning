@@ -14,51 +14,15 @@ After cloning the repository you will need to download and install Python 3.6.3 
 First of, in order to create a dataset that can be used for prediction we need to make sure that each time we are relying on past matches only (you can't predict a match using the number of fouls comitted). The approach taken here is to create
 individual datasets for each team. Which means that we select a team and look to it's 'K' most recent matches and measure performance for both home and away teams. This feature extraction method is refered as "K-Team Statistics" in this project.
 
+Another important aspect is the use of time series cross validation in order to adress the time dependencies of the dataset (you can't use future matches to predict current ones) and the use of nested (time series) cross validation in order to perform Hyperparameter Tuning and Feature Selction without being biased (if you use the same data for tuning/feature selection and for accuracy estimation the results will be optimistic).
+
+The classifiers used are Support Vector Machines, Random Forests, K-Nearest Neighbors.
 
 
 ## Running the tests
 
-Explain how to run the automated tests for this system
+Run the [test.py] file.
 
-### Break down into end to end tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-## Deployment
-
-Add additional notes about how to deploy this on a live system
-
-## Built With
-
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
-
-## Contributing
-
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
-
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
-
-## Authors
-
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
 
 ## License
 
